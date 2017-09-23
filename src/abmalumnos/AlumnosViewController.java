@@ -62,7 +62,7 @@ public class AlumnosViewController implements Initializable {
         colMail.setCellValueFactory(p-> p.getValue().getMail());
         colDni.setCellValueFactory(p -> p.getValue().getDni().asObject());
         colId.setCellValueFactory(p -> p.getValue().getId().asObject());
-
+        
         tablaAlumnos.getSelectionModel().selectedIndexProperty()
                 .addListener((obs, orig, nuevo)-> 
                     mostrarDetallesAlumno(tablaAlumnos.getSelectionModel().getSelectedItem()));
