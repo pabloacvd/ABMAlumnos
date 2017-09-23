@@ -2,6 +2,8 @@
 -- version 4.5.1
 -- http://www.phpmyadmin.net
 --
+-- Autor: Pablo Acevedo
+-- Mail: pablo@xeven.com.ar
 -- Servidor: 127.0.0.1
 -- Tiempo de generación: 23-09-2017 a las 19:40:58
 -- Versión del servidor: 10.1.19-MariaDB
